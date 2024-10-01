@@ -1,0 +1,74 @@
+.App{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #81AFDD;;
+}
+.images{
+  position: relative;
+}
+.image {
+  position: absolute;
+  top: 0;
+  width: 35rem;
+  height: 20rem;
+  transform: translate(-50%, -50%);
+  border-radius: 3rem;
+  box-shadow: 3px 3px 3px #ccc;
+  transition: transform 0.5s ease-in-out;
+}
+.next{
+  position: absolute;
+  top: 90%;
+  left: 75%;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 5rem;
+  cursor: pointer;
+  background-color: coral;
+    cursor: pointer;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: none;
+}
+.pre {
+  position: absolute;
+  top: 90%;
+  right: 70%;
+  font-size: 20px;
+  line-height: 30px;
+  border-radius: 5rem;
+  cursor: pointer;
+  background-color: coral;
+    cursor: pointer;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: none;
+
+}
+.circles{
+  position: absolute;
+  bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle1 {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+.circle2 {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 1rem;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: rgb(2, 2, 20);
+}
